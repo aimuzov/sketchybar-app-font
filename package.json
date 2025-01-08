@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "@aimuzov/sketchybar-app-font",
+  "version": "0.1.3",
+  "description": "App font for sketchybar",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "bin": "index.js",
+  "keywords": [],
+  "author": "Aleksey Imuzov",
+  "license": "MIT",
+  "dependencies": {
+    "svgtofont": "6.2.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimuzov/sketchybar-app-font.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aimuzov/sketchybar-app-font/issues"
+  },
+  "homepage": "https://github.com/aimuzov/sketchybar-app-font#readme"
+}

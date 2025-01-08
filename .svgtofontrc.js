@@ -1,0 +1,22 @@
+export default {
+  fontSize: "12px",
+  src: `${import.meta.dirname}/.temp/icons`,
+  dist: `${import.meta.dirname}/.temp/font`,
+  fontName: "Sketchybar App Font",
+  website: false,
+  css: false,
+  emptyDist: true,
+  useNameAsUnicode: true,
+  outSVGPath: false,
+  outSVGReact: false,
+  excludeFormat: ["eot", "woff", "woff2", "svg", "symbol.svg"],
+  svgicons2svgfont: {
+    centerhorizontally: true,
+    centervertically: true,
+    height: 16,
+    normalize: true,
+    preserveAspectRatio: true,
+    fixedWidth: true,
+    fontHeight: 1000,
+  },
+};
