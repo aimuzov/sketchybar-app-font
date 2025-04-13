@@ -1,7 +1,7 @@
 export default {
   fontSize: "12px",
-  src: `./.temp/icons`,
-  dist: `./.temp/font`,
+  src: `${process.cwd()}/.temp/icons`,
+  dist: `${process.cwd()}./.temp/font`,
   fontName: "Sketchybar App Font",
   website: false,
   css: false,
