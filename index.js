@@ -24,3 +24,4 @@ fs.copyFileSync(
 );
 
 cp.execSync("sketchybar --reload");
+cp.execSync(`rm -rf ${cfg.src} ${cfg.dist}`);
